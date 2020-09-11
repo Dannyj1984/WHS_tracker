@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WHS tracker</string>
+    <string name="world_handicap_system_tracker">World Handicap System Tracker</string>
+    <string name="enter_your_latest_score_as_number_of_shots_over_CSS">Enter your latest score as number of shots over CSS</string>
+    <string name="calculate">Calculate</string>
+    <string name="remove_last_score">Remove last score</string>
+    <string name="new_score">New Score</string>
+</resources>

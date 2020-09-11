@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light">
+
+    <TextView
+        android:id="@+id/header1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/world_handicap_system_tracker"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="40sp" />
+    <TextView
+        android:id="@+id/addScore"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/enter_your_latest_score_as_number_of_shots_over_CSS"/>
+
+    <EditText
+        android:id="@+id/newScore"
+        android:layout_width="136dp"
+        android:layout_height="406dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:inputType="number"
+        android:textSize="180sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:weightSum="3">
+
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="remove"
+        android:layout_weight="0.5"
+        android:layout_gravity="left"
+        android:layout_marginStart="30dp"
+        android:text="@string/remove_last_score" />
+
+        <Button
+            android:id="@+id/calculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_weight="1.5"
+            android:onClick="calculate"
+            android:layout_marginStart="20dp"
+            android:text="@string/calculate" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

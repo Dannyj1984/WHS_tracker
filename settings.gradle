@@ -1,0 +1,2 @@
+rootProject.name='WHS tracker'
+include ':app'
